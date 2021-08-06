@@ -1,11 +1,20 @@
-## Connect With Me
+### Hi there, I'm Adi aka Cecep 👋
+
+## I'm a Student at [SKENSA](http://www.smkn1denpasar.sch.id/)
+
+- 🔭 I just launched my class website [ERPEELONE](https://erpeelone.github.io/)
+- 🌱 I’m currently learning Django
+- 🥅 2021 Goals: Create more projects with the language and tools I'm learning
+- ⚡ Fun fact: I love to watch bollywood movies
+
+### Connect With Me
 
 [<img align="left" alt="Twitter" width="26px" src="icons/twitter.svg" />](https://www.twitter.com/lolcecep)
 [<img align="left" alt="Instagram" width="26px" src="icons/instagram.svg" />](https://www.instagram.com/adiiaryasutaa)
 
 <br />
 
-## Languages and Tools
+### Languages and Tools
 [<img align="left" alt="Visual Studio Code" width="26px" src="icons/vscode.svg" />](https://code.visualstudio.com/)
 [<img align="left" alt="C++" width="26px" src="icons/cpp.svg" />](http://mingw-w64.org/doku.php)
 [<img align="left" alt="Java" width="26px" src="icons/java.svg" />](https://www.java.com/en/)
