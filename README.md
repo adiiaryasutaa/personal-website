@@ -3,7 +3,7 @@
 ## I'm a Student at [SKENSA](http://www.smkn1denpasar.sch.id/)
 
 - 🔭 I just launched my class website [XI RPL 1 | ERPEELONE](https://erpeelone.github.io/)
-- 🌱 I’m currently learning [<img align="left" alt="Django" width="26px" src="icons/django.svg" /> Django](https://www.djangoproject.com/)
+- 🌱 I’m currently learning [Django](https://www.djangoproject.com/)
 - 🥅 2021 Goals: Create more projects with the language and tools I'm learning
 - ⚡ Fun fact: I love to watch bollywood movies
 
