@@ -17,7 +17,7 @@
 ### Languages and Tools
 [<img align="left" alt="Visual Studio Code" width="26px" src="icons/vscode.svg" />](https://code.visualstudio.com/)
 [<img align="left" alt="C++" width="26px" src="icons/cpp.svg" />](http://mingw-w64.org/doku.php)
-[<img align="left" alt="Java" width="22px" src="icons/java.svg" />](https://www.java.com/en/)
+[<img align="left" alt="Java" width="25px" src="icons/java.svg" />](https://www.java.com/en/)
 [<img align="left" alt="Pyhton" width="26px" src="icons/python.svg" />](https://www.python.org/)
 [<img align="left" alt="HTML" width="26px" src="icons/html.svg" />](https://www.w3.org/html/)
 [<img align="left" alt="CSS" width="26px" src="icons/css.svg" />](https://www.w3.org/TR/CSS/#css)
