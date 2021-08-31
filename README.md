@@ -1,16 +1,6 @@
-### Hi there, I'm Adi aka Cecep 👋
+![Adi Aryasuta's card name](https://cardivo.vercel.app/api?name=Adi%20Aryasuta&description=Software%20engineering%20student%20at%20SMK%20N%201%20Denpasar&image=https://avatars.githubusercontent.com/u/71261331?v=4&backgroundColor=%2424240&instagram=adiiaryasutaa&github=adiiaryasutaa&twitter=lolcecep&fontColor=%23ffffff&iconColor=%23ffffff&pattern=brickWall&colorPattern=%23181818)
 
-## I'm a Student at [SKENSA](http://www.smkn1denpasar.sch.id/)
-
-- 🔭 I just launched my class website [XI RPL 1 | ERPEELONE](https://erpeelone.github.io/)
-- 🌱 I’m currently learning [Django](https://www.djangoproject.com/)
-- 🥅 2021 Goals: Create more projects with the language and tools I'm learning
-- ⚡ Fun fact: I love to watch bollywood movies
-
-### Connect With Me
-
-[<img align="left" alt="Twitter" width="26px" src="icons/twitter.svg" />](https://www.twitter.com/lolcecep)
-[<img align="left" alt="Instagram" width="26px" src="icons/instagram.svg" />](https://www.instagram.com/adiiaryasutaa)
+The card is made using [cardivo](https://github.com/satyawikananda/cardivo).
 
 <br />
 
