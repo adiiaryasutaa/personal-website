@@ -2,8 +2,6 @@
 
 The card is made using [cardivo](https://github.com/satyawikananda/cardivo).
 
-<br />
-
 ### Languages and Tools
 [<img align="left" alt="Visual Studio Code" width="26px" src="icons/vscode.svg" />](https://code.visualstudio.com/)
 [<img align="left" alt="C++" width="26px" src="icons/cpp.svg" />](http://mingw-w64.org/doku.php)
