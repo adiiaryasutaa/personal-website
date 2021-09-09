@@ -7,7 +7,6 @@
     <img src="https://img.shields.io/badge/java-%23E40404.svg?&style=for-the-badge&logo=java&logoColor=%23ffffff"/>
     <img src="https://img.shields.io/badge/python-%231E4562.svg?&style=for-the-badge&logo=python&logoColor=%23ffffff"/>
     <img src="https://img.shields.io/badge/javascript-%23FFE927.svg?&style=for-the-badge&logo=javascript&logoColor=%23242424"/>
-    <img src="https://img.shields.io/badge/django-%23003D2B.svg?&style=for-the-badge&logo=django&logoColor=%23ffffff"/>
     <img src="https://img.shields.io/badge/bootstrap-%235F2BAA.svg?&style=for-the-badge&logo=bootstrap&logoColor=%23ffffff"/>
     <img src="https://img.shields.io/badge/tailwind%20css-%2323A4BA.svg?&style=for-the-badge&logo=tailwind%20css&logoColor=%23ffffff"/>
     <img src="https://img.shields.io/badge/node%20js-%238CC849.svg?&style=for-the-badge&logo=nodedotjs&logoColor=%23ffffff"/>
