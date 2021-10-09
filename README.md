@@ -5,8 +5,8 @@
 <div align="center">
   
   <div>
-    <img height="200px" src="https://github-readme-stats.vercel.app/api?username=adiiaryasutaa&show_icons=true">
-    <img height="200px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adiiaryasutaa&layout=compact&langs_count=8">
+    <img height="180px" src="https://github-readme-stats.vercel.app/api?username=adiiaryasutaa&show_icons=true">
+    <img height="180px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adiiaryasutaa&layout=compact&langs_count=8">
   </div>
 
   <br>
@@ -41,6 +41,6 @@
   
   <hr>
   
-  Made with ❤ in Bali, Indonesia using [Cardivo](https://github.com/satyawikananda/cardivo), [Github Reame Stats](https://github.com/anuraghazra/github-readme-stats) and [shields.io](https://shields.io/)
+  Made with ❤ in Bali, Indonesia using [Cardivo](https://github.com/satyawikananda/cardivo), [Github Readme Stats](https://github.com/anuraghazra/github-readme-stats) and [shields.io](https://shields.io/)
   
 </div>
