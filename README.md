@@ -1,8 +1,17 @@
-![Adi Aryasuta's card name](https://cardivo.vercel.app/api?name=Adi%20Aryasuta&description=Software%20engineering%20student%20at%20SMK%20N%201%20Denpasar&image=https://avatars.githubusercontent.com/u/71261331?v=4&backgroundColor=%2424240&instagram=adiiaryasutaa&github=adiiaryasutaa&twitter=lolcecep&fontColor=%23ffffff&iconColor=%23ffffff&pattern=brickWall&colorPattern=%23181818)
+<img src="https://cardivo.vercel.app/api?name=Adi%20Aryasuta&description=Software%20engineering%20student%20at%20SMK%20N%201%20Denpasar&image=https://avatars.githubusercontent.com/u/71261331?v=4&backgroundColor=%23ffffff&instagram=adiiaryasutaa&github=adiiaryasutaa&twitter=lolcecep&fontColor=%23222222&iconColor=%23222222&pattern=brickWall&colorPattern=%23f4f4f4">
+  
+<br>
 
 <div align="center">
   
   <div>
+    <img height="200px" src="https://github-readme-stats.vercel.app/api?username=adiiaryasutaa&show_icons=true">
+    <img height="200px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adiiaryasutaa&layout=compact&langs_count=8">
+  </div>
+
+  <br>
+  
+<!--   <div>
     <img src="https://img.shields.io/badge/c++-%23195A8F.svg?&style=for-the-badge&logo=cplusplus&logoColor=%23ffffff"/>
     <img src="https://img.shields.io/badge/java-%23E40404.svg?&style=for-the-badge&logo=java&logoColor=%23ffffff"/>
     <img src="https://img.shields.io/badge/python-%231E4562.svg?&style=for-the-badge&logo=python&logoColor=%23ffffff"/>
@@ -13,7 +22,7 @@
     <img src="https://img.shields.io/badge/mysql-%23EF9215.svg?&style=for-the-badge&logo=mysql&logoColor=%23ffffff"/>
   </div>
   
-  <br>
+  <br> -->
   
   <div>
     <h4>Connect With Me</h4>
@@ -30,6 +39,8 @@
   
   <br>
   
-  Made using [cardivo](https://github.com/satyawikananda/cardivo) and [shields.io](https://shields.io/)
+  <hr>
+  
+  Made with ❤ in Bali, Indonesia using [Cardivo](https://github.com/satyawikananda/cardivo), [Github Reame Stats](https://github.com/anuraghazra/github-readme-stats) and [shields.io](https://shields.io/)
   
 </div>
