@@ -40,7 +40,6 @@
   <br>
   
   <hr>
-  
   Made with ❤ in Bali, Indonesia using [Cardivo](https://github.com/satyawikananda/cardivo), [Github Readme Stats](https://github.com/anuraghazra/github-readme-stats) and [shields.io](https://shields.io/)
-  
 </div>
+
