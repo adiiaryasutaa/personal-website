@@ -1,47 +1,32 @@
-<img src="https://cardivo.vercel.app/api?name=Adi%20Aryasuta&description=Software%20engineering%20student%20at%20SMK%20N%201%20Denpasar&image=https://avatars.githubusercontent.com/u/71261331?v=4&backgroundColor=%23ffffff&instagram=adiiaryasutaa&github=adiiaryasutaa&twitter=lolcecep&fontColor=%23222222&iconColor=%23222222&pattern=brickWall&colorPattern=%23f4f4f4">
-  
-<br>
+<section align="center">
 
-<div align="center">
-  
-  <div>
-    <img height="185px" src="https://github-readme-stats.vercel.app/api?username=adiiaryasutaa&show_icons=true">
-    <img height="185px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adiiaryasutaa&layout=compact&langs_count=10">
-  </div>
+<img style="border-radius: 4px; margin-bottom: 2rem" src="https://cardivo.vercel.app/api?name=Adi%20Aryasuta&description=Web%20Developer%20|%20Software%20engineering%20student%20at%20SMK%20N%201%20Denpasar&image=https://avatars.githubusercontent.com/u/71261331?v=4&?site=https://adiaryasuta.vercel.app&github=adiiaryasutaa&linkedin=Adi%20Aryasuta&instagram=adiiaryasutaa&twitter=lolcecep&backgroundColor=%23f1f5f9&fontColor=%231e293b&iconColor=%23475569&pattern=wiggle&colorPattern=%23e2e8f0">
 
-  <br>
-  
-<!--   <div>
-    <img src="https://img.shields.io/badge/c++-%23195A8F.svg?&style=for-the-badge&logo=cplusplus&logoColor=%23ffffff"/>
-    <img src="https://img.shields.io/badge/java-%23E40404.svg?&style=for-the-badge&logo=java&logoColor=%23ffffff"/>
-    <img src="https://img.shields.io/badge/python-%231E4562.svg?&style=for-the-badge&logo=python&logoColor=%23ffffff"/>
-    <img src="https://img.shields.io/badge/javascript-%23FFE927.svg?&style=for-the-badge&logo=javascript&logoColor=%23242424"/>
-    <img src="https://img.shields.io/badge/bootstrap-%235F2BAA.svg?&style=for-the-badge&logo=bootstrap&logoColor=%23ffffff"/>
-    <img src="https://img.shields.io/badge/tailwind%20css-%2323A4BA.svg?&style=for-the-badge&logo=tailwind%20css&logoColor=%23ffffff"/>
-    <img src="https://img.shields.io/badge/node%20js-%238CC849.svg?&style=for-the-badge&logo=nodedotjs&logoColor=%23ffffff"/>
-    <img src="https://img.shields.io/badge/mysql-%23EF9215.svg?&style=for-the-badge&logo=mysql&logoColor=%23ffffff"/>
-  </div>
-  
-  <br> -->
-  
-  <div>
-    <h4>Connect With Me</h4>
-    <a href="mailto:adiaryasuta.dev@gmail.com" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/email-%23EA4335?&style=for-the-badge&logo=gmail&logoColor=white"/>
-    </a>
-    <a href="https://twitter.com/lolcecep" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/twitter-%231DA1F2?&style=for-the-badge&logo=twitter&logoColor=white"/>
-    </a>
-    <a href="https://instagram.com/adiiaryasutaa" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/instagram-%23E4405F?&style=for-the-badge&logo=instagram&logoColor=white"/>
-    </a>
-  </div>
-  
-  <br>
-  
-  <hr>
-
-  Made with ❤ in Bali, Indonesia using [Cardivo](https://github.com/satyawikananda/cardivo), [Github Readme Stats](https://github.com/anuraghazra/github-readme-stats) and [shields.io](https://shields.io/)
-
+<div style="display: flex; justify-content: center; margin-bottom: 2rem">
+	<img style="border-radius: 4px; margin-right: 4rem" width="450" src="https://github-readme-stats.vercel.app/api?username=adiiaryasutaa&show_icons=true">
+	<div style="display: flex; flex-direction: column; align-items: start">
+		<h3 style="margin-bottom: 4px; font-weight: 600">Connect With Me</h3>
+		<a href="https://www.linkedin.com/in/adi-aryasuta-32870723b" style="text-decoration: none; margin-right: 4px">
+			<img style="border-radius: 4px;" src="https://img.shields.io/badge/linkedin-%230072b1?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+		</a>
+		<a href="mailto:adiaryasuta.dev@gmail.com" style="text-decoration: none; margin-right: 4px">
+			<img style="border-radius: 4px;" src="https://img.shields.io/badge/email-%23EA4335?&style=for-the-badge&logo=gmail&logoColor=white"/>
+		</a>
+		<a href="https://twitter.com/lolcecep" style="text-decoration: none; margin-right: 4px">
+			<img style="border-radius: 4px;" src="https://img.shields.io/badge/twitter-%231DA1F2?&style=for-the-badge&logo=twitter&logoColor=white"/>
+		</a>
+		<a href="https://instagram.com/adiiaryasutaa" style="text-decoration: none; ">
+			<img style="border-radius: 4px;" src="https://img.shields.io/badge/instagram-%23E4405F?&style=for-the-badge&logo=instagram&logoColor=white"/>
+		</a>
+	</div>
 </div>
 
+<hr />
+
+<div>
+	<p>
+		Built using <a style="font-weight: 600" href="https://github.com/satyawikananda/cardivo">Cardivo</a>, <a style="font-weight: 600" href="https://github.com/anuraghazra/github-readme-stats">Github Readme Stats</a> and <a style="font-weight: 600" href="https://shields.io/">shields.io</a>
+	</p>
+</div>
+
+</section>
