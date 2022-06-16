@@ -146,8 +146,8 @@
 <script>
 import Card from "@/components/Card.vue";
 import Badge from "@/components/Badge.vue";
-import socialMedia from "@/data/socialMedia";
-import projects from "@/data/projects.js";
+import socialMedia from "@/../data/socialMedia";
+import projects from "@/../data/projects.js";
 
 export default {
 	name: "HomeView",

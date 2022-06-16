@@ -32,8 +32,8 @@
 
 <script>
 import Card from "@/components/Card.vue";
-import skills from "@/data/skills.js";
-import tools from "@/data/tools.js";
+import skills from "@/../data/skills.js";
+import tools from "@/../data/tools.js";
 
 export default {
 	data() {

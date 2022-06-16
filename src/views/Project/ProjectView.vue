@@ -48,7 +48,7 @@
 <script>
 import Card from "../../components/Card.vue";
 import Badge from "@/components/Badge.vue";
-import projects from "@/data/projects.js";
+import projects from "@/../data/projects.js";
 
 export default {
 	data() {
