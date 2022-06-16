@@ -6,7 +6,7 @@
 	<img style="border-radius: 4px; margin-right: 4rem" width="450" src="https://github-readme-stats.vercel.app/api?username=adiiaryasutaa&show_icons=true">
 	<div style="display: flex; flex-direction: column; align-items: start">
 		<h3 style="margin-bottom: 4px; font-weight: 600">Connect With Me</h3>
-		<a href="https://www.linkedin.com/in/adi-aryasuta-32870723b" style="text-decoration: none; margin-right: 4px">
+		<a href="https://www.linkedin.com/in/i-gusti-ngurah-agung-adi-aryasuta-32870723b/" style="text-decoration: none; margin-right: 4px">
 			<img style="border-radius: 4px;" src="https://img.shields.io/badge/linkedin-%230072b1?&style=for-the-badge&logo=linkedin&logoColor=white"/>
 		</a>
 		<a href="mailto:adiaryasuta.dev@gmail.com" style="text-decoration: none; margin-right: 4px">
