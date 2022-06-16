@@ -15,7 +15,7 @@ import { ref } from "vue";
 import { themeVariants, setTheme } from "@/theme.js";
 
 export default {
-	name: "Base",
+	name: "App",
 	setup() {
 		const currentTheme = ref(themeVariants.DARK);
 
