@@ -151,9 +151,6 @@ import projects from "@/../data/projects.js";
 
 export default {
 	name: "HomeView",
-	metaInfo: {
-		title: "Adi Aryasuta",
-	},
 	data() {
 		return {
 			photo: require("@/assets/img/adi-aryasuta.jpg"),
