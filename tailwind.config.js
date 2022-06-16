@@ -1,20 +1,15 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: [
-		"./index.html",
-		"./src/**/*.{vue,js,ts,jsx,tsx}",
-		"./node_modules/flowbite/**/*.js",
-	],
+	darkMode: 'class',
+	content: ["./index.html", "./src/**/*.{vue,js}"],
 	theme: {
 		extend: {
 			fontFamily: {
-				'capriola': ['"Capriola"', 'sans-serif'],
-				'quicksand': ['"Quicksand"', 'sans-serif'],
+				capriola: ['"Capriola"', "sans-serif"],
+				quicksand: ['"Quicksand"', "sans-serif"],
 			},
 		},
 	},
-	plugins: [
-		require("flowbite/plugin"),
-		require("tailwind-scrollbar"),
-		require('tailwind-scrollbar-hide')
-	],
+	plugins: [require("tailwind-scrollbar-hide")],
 };
+
