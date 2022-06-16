@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @layer components {
+	* {
+		@apply selection:bg-indigo-500 selection:text-slate-200;
+	}
+
 	li > a:not(.router-link-active.router-link-exact-active) {
 		@apply text-slate-600 dark:text-slate-500;
 	}
