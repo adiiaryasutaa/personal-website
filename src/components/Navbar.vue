@@ -49,8 +49,8 @@
 					<li v-for="nav in navs">
 						<router-link
 							:to="{ name: nav.routeName }"
-							active-class="router-link-active router-link-exact-active text-slate-800 bg-slate-300 dark:text-slate-200 dark:bg-slate-600"
-							exact-active-class="router-link-active router-link-exact-active text-slate-800 bg-slate-300 dark:text-slate-200 dark:bg-slate-600"
+							active-class="router-link-active cursor-default text-slate-800 bg-slate-300 dark:text-slate-200 dark:bg-slate-600"
+							exact-active-class="router-link-exact-active cursor-default text-slate-800 bg-slate-300 dark:text-slate-200 dark:bg-slate-600"
 							class="block font-quicksand font-bold rounded py-2 px-4"
 						>
 							{{ nav.name }}
