@@ -143,3 +143,5 @@ export const projects = [
 		tags: ["HTML", "CSS", "Javascript", "Bootstrap"],
 	},
 ];
+
+export const image404 = [require("@/assets/img/confused-cat.png")];
