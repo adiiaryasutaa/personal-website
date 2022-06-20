@@ -1,11 +1,13 @@
 <template>
-	<main class="bg-slate-50 space-y-2 scrollbar-hide min-h-screen dark:bg-slate-800">
+	<div class="flex flex-col bg-slate-50 space-y-2 scrollbar-hide min-h-screen dark:bg-slate-800">
 		<Navbar :current-theme="currentTheme" :toggle-theme="toggleTheme" />
-		<section class="w-full pt-16">
-			<router-view />
-		</section>
+		<main class="grow">
+			<section class="w-full pt-16">
+				<router-view />
+			</section>
+		</main>
 		<Footer />
-	</main>
+	</div>
 </template>
 
 <script>
