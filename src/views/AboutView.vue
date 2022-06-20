@@ -11,7 +11,7 @@
 					<p class="text text-slate-500 font-quicksand dark:text-gray-400">Here is description about me</p>
 				</div>
 				<div class="flex flex-col space-y-4 text-slate-600 text-justify font-quicksand font-bold w-full dark:text-slate-300">
-					<p v-for="about in abouts">{{ about }}</p>
+					<p v-for="about in aboutMe">{{ about }}</p>
 				</div>
 			</div>
 		</div>
@@ -32,17 +32,13 @@
 
 <script>
 import Card from "@/components/Card.vue";
-import skills from "@/../data/skills.js";
-import tools from "@/../data/tools.js";
+import { photo, aboutMe, skills, tools } from "@/../data";
 
 export default {
 	data() {
 		return {
-			photo: require("@/assets/img/adi-aryasuta.jpg"),
-			abouts: [
-				`Hello everyone, my full name is I Gusti Ngurah Agung Adi Aryasuta, my friends call me Adi or Gung Adi. I was born in Denpasar, Bali on November 21, 2004. I currently live in Denpasar and study at Vocational High School 1 Denpasar majoring in Software Engineering. I am currently focusing on developing website and desktop applications and want to work as a freelancer.`,
-				`I know programming since grade 9, at that time I learned the C++ programming language and at the same time it was the first programming language I learned. Then while studying C++ I also learned Java, when I was in grade 10 I started learning Web Programming until now. I started from learning HTML, CSS and Bootstrap then I continued with Javascript, PHP, Laravel and MySQL. Later when I graduate, I want to major in Information Engineering. I also want to get into mobile app development and make a game.`,
-			],
+			photo,
+			aboutMe,
 			skills,
 			tools,
 		};

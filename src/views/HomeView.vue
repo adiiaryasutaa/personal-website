@@ -146,14 +146,13 @@
 <script>
 import Card from "@/components/Card.vue";
 import Badge from "@/components/Badge.vue";
-import socialMedia from "@/../data/socialMedia";
-import projects from "@/../data/projects.js";
+import { photo, socialMedia, projects } from "@/../data";
 
 export default {
 	name: "HomeView",
 	data() {
 		return {
-			photo: require("@/assets/img/adi-aryasuta.jpg"),
+			photo,
 			socialMedia,
 			latestProjects: projects.slice(0, 4),
 		};
