@@ -45,7 +45,9 @@
 				</button>
 			</div>
 			<div @click="toggleCollapseNavbarNavs" :class="{ hidden: navbarNavsCollapsed }" class="w-full md:block md:w-auto">
-				<ul class="flex flex-col bg-slate-100 rounded space-y-2 font-medium mt-2 p-2 md:bg-transparent md:flex-row md:space-y-0 md:space-x-4 md:mt-0 md:text-sm dark:bg-slate-900">
+				<ul
+					class="flex flex-col bg-slate-100 rounded space-y-2 font-medium mt-2 p-2 md:bg-transparent md:flex-row md:space-y-0 md:space-x-4 md:mt-0 md:text-sm dark:bg-slate-900 dark:md:bg-transparent"
+				>
 					<li v-for="nav in navs">
 						<router-link
 							:to="{ name: nav.routeName }"
