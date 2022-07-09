@@ -78,6 +78,7 @@ export default {
 			{ name: "Home", routeName: "home" },
 			{ name: "About", routeName: "about" },
 			{ name: "Projects", routeName: "project" },
+			{ name: "Blogs", routeName: "blog" },
 		]);
 		const theme = ref(themeVariants);
 		const navbarNavsCollapsed = ref(true);
