@@ -1,9 +1,0 @@
-@import "./montserrat/stylesheet.css";
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-* {
-    font-family: 'Montserrat', sans-serif;
-}

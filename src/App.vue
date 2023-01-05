@@ -1,14 +1,35 @@
-<script setup>
-import Navbar from '@/components/Navbar.vue';
+<script>
+import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
+import { ref } from 'vue';
+import { themeVariants, setTheme } from '@/theme.js';
+
+export default {
+	name: 'App',
+	setup() {
+		const currentTheme = ref(themeVariants.DARK);
+
+		const toggleTheme = () => {
+			currentTheme.value = currentTheme.value === themeVariants.LIGHT ? themeVariants.DARK : themeVariants.LIGHT;
+			setTheme(currentTheme.value);
+		};
+
+		setTheme(currentTheme.value);
+
+		return { currentTheme, toggleTheme };
+	},
+	components: { Navbar, Footer },
+};
 </script>
 
 <template>
-	<div class="bg-gray-100 dark:bg-gray-900 min-h-screen">
-		<header>
-			<navbar/>
-		</header>
-		<main class="py-24 md:py-32">
-			<router-view/>
+	<div class="flex flex-col bg-slate-50 space-y-2 scrollbar-hide min-h-screen dark:bg-slate-800">
+		<Navbar :current-theme="currentTheme" :toggle-theme="toggleTheme"/>
+		<main class="grow">
+			<section class="w-full pt-16">
+				<router-view/>
+			</section>
 		</main>
+		<Footer/>
 	</div>
 </template>

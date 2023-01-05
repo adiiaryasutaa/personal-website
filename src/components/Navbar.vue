@@ -1,64 +1,95 @@
-<script setup>
-import ThemeButton from '@/components/ThemeButton.vue';
-import LanguageButton from '@/components/LanguageButton.vue';
-import { Bars3Icon, XMarkIcon } from '@heroicons/vue/20/solid';
-import { ref } from 'vue';
-import NavbarItem from '@/components/NavbarItem.vue';
-
-const showNavigation = ref(false);
-const windowOnTop = ref(true);
-
-const toggleNavigation = () => {
-	showNavigation.value = !showNavigation.value;
-};
-
-window.addEventListener('resize', () => {
-	showNavigation.value = false;
-});
-
-window.addEventListener('scroll', () => {
-	windowOnTop.value = window.scrollY <= 0;
-});
-</script>
-
 <template>
-	<nav class="fixed w-full z-10" :class="{ 'bg-slate-50/80 backdrop-blur-2xl border-b border-slate-200 dark:bg-slate-900/80 dark:border-slate-700': !windowOnTop || (windowOnTop && showNavigation) }">
-		<div class="container">
-			<div class="flex flex-wrap justify-between items-center py-4">
-				<div class="text-slate-900 font-medium text-lg md:text-xl dark:text-slate-300">
-					<h1 class="font-semibold text-lg">{{ $t('brand') }}</h1>
-				</div>
+	<nav class="bg-transparent p-4">
+		<div class="container flex flex-wrap justify-between items-center mx-auto">
+			<router-link :to="{ name: 'home' }" class="self-center text-xl text-slate-900 font-capriola uppercase font-league-spartan whitespace-nowrap dark:text-slate-50">
+				{{ brand }}
+			</router-link>
 
-				<div class="flex items-center h-full space-x-2 md:order-3">
-					<language-button/>
-					<theme-button/>
-					<button @click="toggleNavigation"
-									class="p-2 rounded text-slate-500 hover:text-slate-600 hover:bg-slate-50 active:bg-slate-100 focus:text-slate-600 focus:ring focus:ring-slate-200 md:hidden dark:ring-slate-700 dark:hover:text-slate-500 dark:hover:bg-slate-800 dark:active:bg-slate-700">
-						<XMarkIcon v-if="showNavigation" class="w-5 h-5"/>
-						<Bars3Icon v-else class="w-5 h-5"/>
-					</button>
-				</div>
-
-				<div
-					@click="showNavigation = false"
-					class="navbar-nav w-full bg-slate-100 mt-4 rounded p-2 border border-slate-200 space-y-2 md:order-2 md:flex md:w-auto md:bg-transparent md:space-x-2 md:mt-0 md:p-0 md:border-0 md:space-y-0 dark:bg-slate-800 dark:border-slate-700 dark:md:bg-transparent"
-					:class="{ 'hidden': !showNavigation }">
-					<navbar-item :label="$t('navbar.home')" href="/"/>
-					<navbar-item :label="$t('navbar.about')" href="/about"/>
-					<navbar-item :label="$t('navbar.project')" href="/project"/>
-					<navbar-item :label="$t('navbar.blog')" href="/blog"/>
-				</div>
+			<div class="flex items-center md:order-3">
+				<button @click="toggleTheme" class="text-slate-600 p-4 hover:text-slate-800 dark:hover:text-slate-400">
+					<span v-show="currentTheme === theme.DARK">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+							<path
+								fill-rule="evenodd"
+								d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+					</span>
+					<span v-show="currentTheme === theme.LIGHT">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+							<path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+						</svg>
+					</span>
+				</button>
+				<button
+					@click="toggleCollapseNavbarNavs"
+					ref="navbarNavsToggler"
+					type="button"
+					class="inline-flex items-center p-2 ml-3 text-sm text-slate-500 rounded-lg md:hidden hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-slate-200 dark:text-slate-400 dark:hover:bg-slate-700 dark:focus:ring-slate-600"
+				>
+					<svg v-if="navbarNavsCollapsed" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+						<path
+							fill-rule="evenodd"
+							d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+							clip-rule="evenodd"
+						></path>
+					</svg>
+					<svg v-else class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+						<path
+							fill-rule="evenodd"
+							d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+							clip-rule="evenodd"
+						></path>
+					</svg>
+				</button>
+			</div>
+			<div @click="toggleCollapseNavbarNavs" :class="{ hidden: navbarNavsCollapsed }" class="w-full md:block md:w-auto">
+				<ul
+					class="flex flex-col bg-slate-100 rounded space-y-2 font-medium mt-2 p-2 md:bg-transparent md:flex-row md:space-y-0 md:space-x-4 md:mt-0 md:text-sm dark:bg-slate-900 dark:md:bg-transparent"
+				>
+					<li v-for="nav in navs">
+						<router-link
+							:to="{ name: nav.routeName }"
+							active-class="router-link-active cursor-default text-slate-800 bg-slate-300 dark:text-slate-200 dark:bg-slate-600"
+							exact-active-class="router-link-exact-active cursor-default text-slate-800 bg-slate-300 dark:text-slate-200 dark:bg-slate-600"
+							class="block font-quicksand font-bold rounded py-2 px-4"
+						>
+							{{ nav.name }}
+						</router-link>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</nav>
 </template>
 
-<style scoped>
-.navbar-nav > a:not(.router-link-active.router-link-exact-active) {
-	@apply text-slate-600 hover:bg-slate-200 hover:text-slate-700 active:bg-slate-300 active:text-slate-800 focus:bg-slate-200 focus:text-slate-700 dark:text-slate-400 dark:hover:bg-slate-700 dark:hover:text-slate-300 dark:active:bg-slate-600;
-}
+<script>
+import { themeVariants } from "@/theme.js";
+import { ref } from "vue";
 
-.navbar-nav {
-	transition: width 0.5s;
-}
-</style>
+export default {
+	name: "Navbar",
+	props: {
+		"current-theme": String,
+		"toggle-theme": Function,
+	},
+	setup() {
+		const brand = ref("Adi Aryasuta");
+		const navs = ref([
+			{ name: "Home", routeName: "home" },
+			{ name: "About", routeName: "about" },
+			{ name: "Projects", routeName: "project" },
+			{ name: "Blogs", routeName: "blog" },
+		]);
+		const theme = ref(themeVariants);
+		const navbarNavsCollapsed = ref(true);
+
+		const toggleCollapseNavbarNavs = () => {
+			navbarNavsCollapsed.value = !navbarNavsCollapsed.value;
+		};
+
+		return { brand, navs, theme, toggleCollapseNavbarNavs, navbarNavsCollapsed };
+	},
+};
+</script>
