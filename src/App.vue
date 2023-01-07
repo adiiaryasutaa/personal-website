@@ -7,8 +7,6 @@ import Navbar from '@/components/Navbar.vue';
 		<header>
 			<navbar/>
 		</header>
-		<main class="py-24 md:py-32">
-			<router-view/>
-		</main>
+		<router-view/>
 	</div>
 </template>

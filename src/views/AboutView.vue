@@ -1,9 +1,10 @@
 <script setup>
 import AboutSection from '@/components/AboutSection.vue';
+import MainSection from '@/components/MainSection.vue';
 </script>
 
 <template>
-	<div class="">
+	<main-section>
 		<about-section />
-	</div>
+	</main-section>
 </template>

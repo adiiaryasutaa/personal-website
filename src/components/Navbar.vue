@@ -22,14 +22,15 @@ window.addEventListener('scroll', () => {
 </script>
 
 <template>
-	<nav class="fixed w-full z-10" :class="{ 'bg-slate-50/80 backdrop-blur-2xl border-b border-slate-200 dark:bg-slate-900/80 dark:border-slate-700': !windowOnTop || (windowOnTop && showNavigation) }">
+	<nav class="fixed w-full z-10"
+			 :class="{ 'bg-slate-100/90 backdrop-blur border-b border-slate-200 dark:bg-slate-900/90 dark:border-slate-700': !windowOnTop || (windowOnTop && showNavigation) }">
 		<div class="container">
 			<div class="flex flex-wrap justify-between items-center py-4">
-				<div class="text-slate-900 font-medium text-lg md:text-xl dark:text-slate-300">
-					<h1 class="font-semibold text-lg">{{ $t('brand') }}</h1>
+				<div class="text-slate-900 font-medium md:text-xl dark:text-slate-300">
+					<h1 class="font-semibold text-xl sm:text-2xl">{{ $t('brand') }}</h1>
 				</div>
 
-				<div class="flex items-center h-full space-x-2 md:order-3">
+				<div class="flex items-center h-full space-x-0.5 md:order-3 sm:space-x-2">
 					<language-button/>
 					<theme-button/>
 					<button @click="toggleNavigation"
