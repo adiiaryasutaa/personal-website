@@ -1,10 +1,10 @@
 <script setup>
-import ProjectCard from '@/components/ProjectCard.vue';
+import ProjectCard from '@/components/cards/ProjectCard.vue';
 import Project from '@/dtos/Project';
 import MainSection from '@/components/MainSection.vue';
 
 const project = new Project(
-	'https://adiaryasuta.vercel.app/assets/no-image.788692b8.png',
+	'src/assets/project-no-image.png',
 	'Reaction Timer',
 	'Reaction Timer powered by Vue 3 and TailwindCSS',
 	['HTML', 'CSS', 'Javascript', 'Bootstrap'],
