@@ -1,5 +1,5 @@
 <script setup>
-import MainSection from '@/components/MainSection.vue';
+import MainSection from '@/components/sections/MainSection.vue';
 </script>
 
 <template>
@@ -7,7 +7,7 @@ import MainSection from '@/components/MainSection.vue';
 		<section class="container pt-16">
 			<div class="flex flex-col items-center">
 				<div class="">
-					<img src="@/assets/adiaryasuta.jpg" alt="dd"
+					<img src="@/assets/imgs/adiaryasuta.jpg" alt="dd"
 							 class="rounded-full w-40 ring-8 ring-slate-200 dark:ring-slate-700">
 				</div>
 				<div class="flex flex-col items-center mt-8">

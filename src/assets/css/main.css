@@ -1,4 +1,4 @@
-@import "./montserrat/stylesheet.css";
+@import "../fonts/montserrat/stylesheet.css";
 
 @tailwind base;
 @tailwind components;

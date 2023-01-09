@@ -1,5 +1,5 @@
 <script setup>
-import MainSection from '@/components/MainSection.vue';
+import MainSection from '@/components/sections/MainSection.vue';
 </script>
 
 <template>

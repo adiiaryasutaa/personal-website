@@ -1,5 +1,5 @@
 <script setup>
-import Project from '@/dtos/Project';
+import Project from '@/dto/Project';
 import { GlobeAltIcon } from '@heroicons/vue/24/outline';
 import GithubIcon from '@/components/icons/GithubIcon.vue';
 
@@ -9,7 +9,7 @@ defineProps({ project: Project });
 <template>
 	<div
 		class="bg-slate-50 border border-slate-200 rounded p-4 drop-shadow-xl shadow-slate-200 dark:bg-slate-800 dark:border-slate-700 dark:shadow-slate-700">
-		<img :src="project.image" :alt="project.title" class="rounded border border-slate-200 dark:border-slate-700">
+		<img :src="project.image ?? 'src/assets/imgs/projects/no-image.png'" :alt="project.title" class="rounded border border-slate-200 dark:border-slate-700">
 		<div class="flex flex-col items-center mt-4">
 			<h1 class="font-semibold text-slate-900 text-xl dark:text-slate-100">{{ project.title }}</h1>
 			<p class="text-center text-slate-500 mt-1 leading-relaxed dark:text-slate-400">{{ project.description }}</p>

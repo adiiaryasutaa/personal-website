@@ -6,7 +6,7 @@
 	<section class="container">
 		<div class="flex flex-col items-center md:flex-row md:items-start">
 			<div class="flex flex-col items-center md:shrink-0">
-				<img src="@/assets/adiaryasuta2.jpg"
+				<img src="@/assets/imgs/adiaryasuta2.jpg"
 						 class="rounded w-60 border-8 border-slate-200 xl:w-72 dark:border-slate-800">
 				<div class="text-xs mt-2 text-slate-400 dark:text-slate-600">
 					{{ $t('Adi Aryasuta at SMK Negeri 1 Denpasar') }}

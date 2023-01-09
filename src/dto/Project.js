@@ -1,4 +1,4 @@
-export default class Project {
+export default class {
 	constructor(image = null, title, description, tags = [], repository = '', externalLink = '') {
 		this.image = image;
 		this.title = title;
