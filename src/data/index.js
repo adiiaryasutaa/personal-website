@@ -1,5 +1,5 @@
 import SimpleCardDTO from '@/dto/SimpleCardDTO';
-import Project from '@/dto/Project';
+import ProjectDTO from '@/dto/ProjectDTO';
 
 export const skills = [
 	new SimpleCardDTO('src/assets/icons/html.svg', 'HTML'),
@@ -24,7 +24,7 @@ export const tools = [
 ];
 
 export const projects = [
-	new Project(
+	new ProjectDTO(
 		'src/assets/imgs/projects/reaction-timer.png',
 		'Reaction Time',
 		'Reaction Timer powered by Vue 3 and TailwindCSS',
@@ -32,7 +32,7 @@ export const projects = [
 		'https://github.com/adiiaryasutaa/reaction-timer',
 		'https://cecep-reaction-timer.vercel.app',
 	),
-	new Project(
+	new ProjectDTO(
 		'src/assets/imgs/projects/rps-game.png',
 		'RPS Game',
 		'A game I made, while waiting for the teacher to finish the meeting',
@@ -40,14 +40,14 @@ export const projects = [
 		'https://github.com/adiiaryasutaa/rps-game',
 		'https://adiiaryasutaa.github.io/rps-game',
 	),
-	new Project(
+	new ProjectDTO(
 		null,
 		'Aplikasi Kasir',
 		'Aplikasi kasir',
 		['Java', 'Gson'],
 		'https://github.com/adiiaryasutaa/aplikasi-kasir',
 	),
-	new Project(
+	new ProjectDTO(
 		'src/assets/imgs/projects/get-anime-quote.png',
 		'Get Anime Quote',
 		'Get cool anime quote',
@@ -55,7 +55,7 @@ export const projects = [
 		'https://github.com/adiiaryasutaa/get-anime-quote',
 		'https://getanimequote.vercel.app',
 	),
-	new Project(
+	new ProjectDTO(
 		'src/assets/imgs/projects/skenmath.png',
 		'SkenMath',
 		'Belajar matematika untuk SMA/SMK',
@@ -63,7 +63,7 @@ export const projects = [
 		'https://github.com/adiiaryasutaa/skenmath',
 		'https://skenmath.vercel.app',
 	),
-	new Project(
+	new ProjectDTO(
 		'src/assets/imgs/projects/sejarahku.png',
 		'Sejarahku',
 		'Sebuah website untuk mempelajari sejarah',
@@ -71,7 +71,7 @@ export const projects = [
 		'https://github.com/adiiaryasutaa/sejarahku',
 		'https://adiiaryasutaa.github.io/sejarahku',
 	),
-	new Project(
+	new ProjectDTO(
 		'src/assets/imgs/projects/erpeelone58.png',
 		'Erpeelone 58',
 		'Official website XI RPL 1 | ERPEELONE',
