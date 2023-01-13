@@ -8,7 +8,7 @@ defineProps({ project: Project });
 
 <template>
 	<div
-		class="flex flex-col bg-slate-50 border border-slate-200 rounded h-full p-4 drop-shadow-xl shadow-slate-200 dark:bg-slate-800 dark:border-slate-700 dark:shadow-slate-700">
+		class="flex flex-col bg-slate-50 border border-slate-200 rounded h-full p-4 drop-shadow-xl shadow-slate-200/25 dark:bg-slate-800 dark:border-slate-700 dark:shadow-slate-700/25">
 		<img :src="project.image ?? 'src/assets/imgs/projects/no-image.png'" :alt="project.title"
 				 class="rounded border border-slate-200 dark:border-slate-700">
 		<div class="grow flex flex-col">
