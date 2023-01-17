@@ -7,10 +7,20 @@ import Navbar from '@/components/Navbar.vue';
 		<header>
 			<navbar/>
 		</header>
-		<router-view/>
+		<router-view v-slot="{ Component }">
+			<transition name="fade" mode="in-out">
+				<component :is="Component"/>
+			</transition>
+		</router-view>
 	</div>
 </template>
 
 <style scoped>
+.fade-enter-active, .fade-leave-active {
+	transition: opacity 0.25s ease;
+}
 
+.fade-enter-from, .fade-leave-to {
+	opacity: 0;
+}
 </style>
