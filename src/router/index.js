@@ -28,6 +28,9 @@ const router = createRouter({
 			component: BlogView,
 		},
 	],
+	scrollBehavior(to, from, savedPosition) {
+		document.getElementById('app').scrollIntoView({ behavior: 'smooth' })
+	},
 });
 
 export default router;
