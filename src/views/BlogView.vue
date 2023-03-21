@@ -2,10 +2,6 @@
 import MainSection from '@/components/sections/MainSection.vue';
 import ContainerTitle from '@/components/ContainerTitle.vue';
 import Container from '@/components/Container.vue';
-import blogDTO from '@/dto/BlogDTO';
-import BlogCard from '@/components/cards/BlogCard.vue';
-
-const blog = new blogDTO('an example blog', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa urna, feugiat non nisi vitae, tincidunt lobortis ipsum. Etiam varius metus eu nunc molestie maximus. Morbi vel dictum arcu. Curabitur tristique magna ut arcu...', 'technology', 'https://source.unsplash.com/user/c_v_r/1900x800', '2 days ago');
 </script>
 
 <template>
@@ -14,14 +10,11 @@ const blog = new blogDTO('an example blog', 'Lorem ipsum dolor sit amet, consect
 			<template #title>
 				<container-title>{{ $t('blog') }}</container-title>
 			</template>
-			<div class="grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 md:mt-6 lg:mt-8 xl:grid-cols-3 xl:gap-8 xl:mt-10">
-				<blog-card :blog="blog"/>
-				<blog-card :blog="blog"/>
-				<blog-card :blog="blog"/>
-				<blog-card :blog="blog"/>
-				<blog-card :blog="blog"/>
-				<blog-card :blog="blog"/>
-			</div>
+      <div class="grid justify-center mt-4">
+        <div class="inline font-medium text-xl px-2 py-1.5 bg-slate-100 border-2 border-slate-200 rounded dark:bg-slate-700 dark:border-slate-600 dark:text-slate-100">
+          {{ $t('blog-under-development-message') }}
+        </div>
+      </div>
 		</container>
 	</main-section>
 </template>
