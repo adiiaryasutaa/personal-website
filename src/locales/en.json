@@ -7,8 +7,10 @@
     "blog": "Blog"
   },
   "name": "Adi Aryasuta",
-  "description": "I'm a Web Developer and Android Developer who loves build useful products. I live in Denpasar, Bali.",
+  "description": "I am a <span class=\"font-semibold\">Software Developer</span> who loves build useful products",
   "see-more": "More about me",
   "about": "\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias consequatur labore nesciunt nulla officia, suscipit? Aperiam aut blanditiis commodi cum, debitis dicta doloribus est, ipsa iste quos soluta ullam unde! Dolorem dolores eaque eligendi enim expedita facilis illo laborum magni minus nemo neque nobis nostrum perspiciatis possimus provident, quasi quos soluta vero voluptates voluptatum? Ab aliquid aut cupiditate delectus deleniti dolores hic, illum iusto magnam magni modi, odit placeat quam sequi sit voluptates voluptatum. Amet, asperiores maxime.",
-  "in-development": "In Development ^_^"
+  "about-image-description-1": "Adi Aryasuta at SMK Negeri 1 Denpasar",
+  "about-image-description-2": "This photo was taken by <a class=\"font-semibold hover:underline hover:text-slate-500\" href=\"https://snstechbali.github.io/santinareswari.github.io/\" target=\"_blank\">Santi Nareswari</a>",
+  "blog-under-development-message": "Blog is still under development \uD83D\uDE4F"
 }
