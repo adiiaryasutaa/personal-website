@@ -1,8 +1,8 @@
 <script setup>
-import BlogDTO from '@/dto/BlogDTO';
+import Blog from '@/DTOs/Blog';
 import { ClockIcon } from '@heroicons/vue/24/outline';
 
-defineProps({ blog: BlogDTO });
+defineProps({ blog: Blog });
 </script>
 
 <template>

@@ -1,5 +1,5 @@
 <script setup>
-import Project from '@/dto/ProjectDTO';
+import Project from '@/DTOs/Project';
 import { GlobeAltIcon } from '@heroicons/vue/24/outline';
 import GithubIcon from '@/components/icons/GithubIcon.vue';
 
