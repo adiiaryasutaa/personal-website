@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar.vue';
 </script>
 
 <template>
-	<div class="bg-gray-100 bg-image-light min-h-screen dark:bg-gray-900 dark:bg-image-dark">
+	<div class="bg-gray-100 bg-image-light min-h-screen selection:bg-slate-300 dark:bg-gray-900 dark:bg-image-dark dark:selection:bg-slate-700">
 		<header>
 			<navbar/>
 		</header>
