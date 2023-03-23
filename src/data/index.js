@@ -13,14 +13,19 @@ export const skills = [
 	new SimpleCard('src/assets/icons/cpp.svg', 'C++'),
 	new SimpleCard('src/assets/icons/java.svg', 'Java'),
 	new SimpleCard('src/assets/icons/mysql.svg', 'MySQL'),
+	new SimpleCard('src/assets/icons/android.svg', 'Android'),
+	new SimpleCard('src/assets/icons/firebase.svg', 'Firebase'),
 ];
 
 export const tools = [
 	new SimpleCard('src/assets/icons/git.svg', 'Git'),
+	new SimpleCard('src/assets/icons/github.svg', 'GitHub'),
 	new SimpleCard('src/assets/icons/vscode.svg', 'VS Code'),
 	new SimpleCard('src/assets/icons/intellijidea.svg', 'IntelliJ IDEA'),
+	new SimpleCard('src/assets/icons/clion.svg', 'CLion'),
 	new SimpleCard('src/assets/icons/phpstorm.svg', 'PhpStorm'),
-	new SimpleCard('src/assets/icons/datagrip.svg', 'Data Grip'),
+	new SimpleCard('src/assets/icons/datagrip.svg', 'DataGrip'),
+	new SimpleCard('src/assets/icons/webstorm.svg', 'WebStorm'),
 ];
 
 export const projects = [
