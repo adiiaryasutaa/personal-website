@@ -30,6 +30,38 @@ export const tools = [
 
 export const projects = [
 	new Project(
+		null,
+		'project.pembayaran-spp.title',
+		'project.pembayaran-spp.description',
+		['PHP', 'Bootstrap'],
+		null,
+		null,
+	),
+	new Project(
+		null,
+		'project.pengaduan-masyarakat.title',
+		'project.pengaduan-masyarakat.description',
+		['PHP', 'Bootstrap'],
+		null,
+		null,
+	),
+	new Project(
+		null,
+		'project.blog-hub-pasien.title',
+		'project.blog-hub-pasien.description',
+		['Laravel', 'TailwindCSS'],
+		null,
+		null,
+	),
+	new Project(
+		null,
+		'project.hub-pasien.title',
+		'project.hub-pasien.description',
+		['Bootstrap', 'Laravel'],
+		null,
+		null,
+	),
+	new Project(
 		'src/assets/imgs/projects/reaction-timer.png',
 		'project.reaction-timer.title',
 		'project.reaction-timer.description',
