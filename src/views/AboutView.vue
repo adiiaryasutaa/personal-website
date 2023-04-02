@@ -1,6 +1,6 @@
 <script setup>
 import AboutSection from '@/components/sections/AboutSection.vue';
-import MainSection from '@/components/sections/MainSection.vue';
+import MainSection from '@/components/MainSection.vue';
 import SkillSection from '@/components/sections/SkillSection.vue';
 import ToolSection from '@/components/sections/ToolSection.vue';
 </script>

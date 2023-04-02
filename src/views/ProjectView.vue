@@ -1,6 +1,6 @@
 <script setup>
 import ProjectCard from '@/components/cards/ProjectCard.vue';
-import MainSection from '@/components/sections/MainSection.vue';
+import MainSection from '@/components/MainSection.vue';
 import { projects } from '@/data';
 import Container from '@/components/Container.vue';
 import ContainerTitle from '@/components/ContainerTitle.vue';
