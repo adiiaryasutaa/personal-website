@@ -1,8 +1,8 @@
 export default class {
-	constructor(image = null, title, description, tags = [], repository = '', externalLink = '') {
+	constructor(image = null, titleLocale, descriptionLocale, tags = [], repository = null, externalLink = null) {
 		this.image = image;
-		this.title = title;
-		this.description = description;
+		this.titleLocale = titleLocale;
+		this.descriptionLocale = descriptionLocale;
 		this.tags = tags;
 		this.repository = repository;
 		this.externalLink = externalLink;
