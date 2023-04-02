@@ -6,11 +6,76 @@
     "project": "Project",
     "blog": "Blog"
   },
-  "name": "Adi Aryasuta",
-  "description": "I am a <span class=\"font-semibold\">Software Developer</span> who loves build useful products",
-  "see-more": "More about me",
-  "about": "\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias consequatur labore nesciunt nulla officia, suscipit? Aperiam aut blanditiis commodi cum, debitis dicta doloribus est, ipsa iste quos soluta ullam unde! Dolorem dolores eaque eligendi enim expedita facilis illo laborum magni minus nemo neque nobis nostrum perspiciatis possimus provident, quasi quos soluta vero voluptates voluptatum? Ab aliquid aut cupiditate delectus deleniti dolores hic, illum iusto magnam magni modi, odit placeat quam sequi sit voluptates voluptatum. Amet, asperiores maxime.",
-  "about-image-description-1": "Adi Aryasuta at SMK Negeri 1 Denpasar",
-  "about-image-description-2": "This photo was taken by <a class=\"font-semibold hover:underline hover:text-slate-500\" href=\"https://snstechbali.github.io/santinareswari.github.io/\" target=\"_blank\">Santi Nareswari</a>",
-  "blog-under-development-message": "Blog is still under development \uD83D\uDE4F"
+  "home": {
+    "description": "I am a <span class=\"font-semibold\">Software Developer</span> who loves build useful products",
+    "see-more": "More about me"
+  },
+  "about": {
+    "description": [
+      "Perkenalkan nama saya I Gusti Ngurah Agung Adi Aryasuta, saya biasa dipanggil Gung Adi atau Adi. Saya lahir dan tinggal di Denpasar, Bali. Saat ini saya adalah seorang siswa di SMK Negeri 1 Denpasar dengan jurusan Rekayasa Perangkat Lunak. Saat SD saya ingin membuat game, sampai saya mencapai kelas 9 saya mengenal pemrograman dan sejak saat itu saya bercita-cita menjadi seorang yang ahli di bidang tersebut. Bahasa pemrograman pertama yang saya pelajari adalah C++, bahasa yang dianggap sulit oleh sebagian orang. Tetapi karena C++, saya dapat mempelajari dan memahami bahasa pemrograman yang lainnya seperti Java atau JavaScript dengan cukup cepat.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias consequatur labore nesciunt nulla officia, suscipit? Aperiam aut blanditiis commodi cum, debitis dicta doloribus est, ipsa iste quos soluta ullam unde! Dolorem dolores eaque eligendi enim expedita facilis illo laborum magni minus nemo neque nobis nostrum perspiciatis possimus provident, quasi quos soluta vero voluptates voluptatum? Ab aliquid aut cupiditate delectus deleniti dolores hic, illum iusto magnam magni modi, odit placeat quam sequi sit voluptates voluptatum. Amet, asperiores maxime."
+    ],
+    "image-description": [
+      "Adi Aryasuta at SMK Negeri 1 Denpasar",
+      "This photo was taken by <a class=\"font-semibold hover:underline hover:text-slate-500\" href=\"https://snstechbali.github.io/santinareswari.github.io/\" target=\"_blank\">Santi Nareswari</a>"
+    ],
+    "skill-section-title": "Skills",
+    "tool-section-title": "Tools"
+  },
+  "project": {
+    "section-title": "Project",
+    "erpeelone-58": {
+      "title": "Erpeelone 58",
+      "description": "Official website XI RPL 1 | ERPEELONE"
+    },
+    "sejarahku": {
+      "title": "Sejarahku",
+      "description": "Sebuah website untuk mempelajari sejarah"
+    },
+    "skenmath": {
+      "title": "SkenMath",
+      "description": "Belajar matematika untuk SMA/SMK"
+    },
+    "get-anime-quote": {
+      "title": "Get Anime Quote",
+      "description": "Get cool anime quote"
+    },
+    "aplikasi-kasir": {
+      "title": "Aplikasi Kasir",
+      "description": "Aplikasi kasir"
+    },
+    "rps-game": {
+      "title": "RPS Game",
+      "description": "A game I made, while waiting for the teacher to finish the meeting"
+    },
+    "reaction-timer": {
+      "title": "Reaction Time",
+      "description": "Reaction Timer powered by Vue 3 and TailwindCSS"
+    },
+    "hub-pasien": {
+      "title": "Hub Pasien",
+      "description": "Landing page Hub Pasien"
+    },
+    "blog-hub-pasien": {
+      "title": "Blog Hub Pasien",
+      "description": "Situs blog Hub Pasien"
+    },
+    "pengaduan-masyarakat": {
+      "title": "Pengaduan Masyarakat",
+      "description": "Pengaduan Masyarakar"
+    },
+    "pembayaran-spp": {
+      "title": "Pembayaran SPP",
+      "description": "Project UKK"
+    }
+  },
+  "blog": {
+    "section-title": "Blog",
+    "message": "Blog is still under development \uD83D\uDE4F"
+  },
+  "footer": {
+    "copyright": "© {year} Adi Aryasuta",
+    "technology": "Built with <span class=\"font-semibold\">Vue 3</span> and <span class=\"font-semibold\">TailwindCSS</span>",
+    "host": "Hosted on <span class=\"font-semibold\">Vercel</span>"
+  }
 }

@@ -5,5 +5,77 @@
     "about": "Tentang",
     "project": "Proyek",
     "blog": "Blog"
+  },
+  "home": {
+    "description": "Seorang <span class=\"font-semibold\">Software Developer</span> yang senang membuat produk berguna",
+    "see-more": "Lebih banyak tentang saya"
+  },
+  "about": {
+    "description": [
+      "Perkenalkan nama saya I Gusti Ngurah Agung Adi Aryasuta, saya biasa dipanggil Gung Adi atau Adi. Saya lahir dan tinggal di Denpasar, Bali. Saat ini saya adalah seorang siswa di SMK Negeri 1 Denpasar dengan jurusan Rekayasa Perangkat Lunak. Saat SD saya ingin membuat game, sampai saya mencapai kelas 9 saya mengenal pemrograman dan sejak saat itu saya bercita-cita menjadi seorang yang ahli di bidang tersebut. Bahasa pemrograman pertama yang saya pelajari adalah C++, bahasa yang dianggap sulit oleh sebagian orang. Tetapi karena C++, saya dapat mempelajari dan memahami bahasa pemrograman yang lainnya seperti Java atau JavaScript dengan cukup cepat.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias consequatur labore nesciunt nulla officia, suscipit? Aperiam aut blanditiis commodi cum, debitis dicta doloribus est, ipsa iste quos soluta ullam unde! Dolorem dolores eaque eligendi enim expedita facilis illo laborum magni minus nemo neque nobis nostrum perspiciatis possimus provident, quasi quos soluta vero voluptates voluptatum? Ab aliquid aut cupiditate delectus deleniti dolores hic, illum iusto magnam magni modi, odit placeat quam sequi sit voluptates voluptatum. Amet, asperiores maxime."
+    ],
+    "image-description": [
+      "Adi Aryasuta di SMK Negeri 1 Denpasar",
+      "Poto ini dipotret oleh <a class=\"font-semibold hover:underline hover:text-slate-500\" href=\"https://snstechbali.github.io/santinareswari.github.io/\" target=\"_blank\">Santi Nareswari</a>"
+    ],
+    "skill-section-title": "Keahlian",
+    "tool-section-title": "Alat"
+  },
+  "project": {
+    "section-title": "Proyek",
+    "erpeelone-58": {
+      "title": "Erpeelone 58",
+      "description": "Official website XI RPL 1 | ERPEELONE"
+    },
+    "sejarahku": {
+      "title": "Sejarahku",
+      "description": "Sebuah website untuk mempelajari sejarah"
+    },
+    "skenmath": {
+      "title": "SkenMath",
+      "description": "Belajar matematika untuk SMA/SMK"
+    },
+    "get-anime-quote": {
+      "title": "Get Anime Quote",
+      "description": "Dapatkan Kutipan atau quote anime keren"
+    },
+    "aplikasi-kasir": {
+      "title": "Aplikasi Kasir",
+      "description": "Proyek mata pelajaran Pemrograman Berorientasi Obyek (PBO)"
+    },
+    "rps-game": {
+      "title": "RPS Game",
+      "description": "Sebuah game yang saya buat saat menunggu guru selesai rapat"
+    },
+    "reaction-timer": {
+      "title": "Reaction Time",
+      "description": "Uji kecepatan reaksimu"
+    },
+    "hub-pasien": {
+      "title": "Hub Pasien",
+      "description": "Landing page Hub Pasien"
+    },
+    "blog-hub-pasien": {
+      "title": "Blog Hub Pasien",
+      "description": "Aplikasi blog Hub Pasien"
+    },
+    "pengaduan-masyarakat": {
+      "title": "Pengaduan Masyarakat",
+      "description": "Aplikasi website untuk latihan sebelum Uji Kompetensi 2023"
+    },
+    "pembayaran-spp": {
+      "title": "Pembayaran SPP",
+      "description": "Proyek Uji Kompetensi 2023"
+    }
+  },
+  "blog": {
+    "section-title": "Blog",
+    "message": "Blog masih dalam pengembangan \uD83D\uDE4F"
+  },
+  "footer": {
+    "copyright": "© {year} Adi Aryasuta",
+    "technology": "Built with <span class=\"font-semibold\">Vue 3</span> and <span class=\"font-semibold\">TailwindCSS</span>",
+    "host": "Hosted on <span class=\"font-semibold\">Vercel</span>"
   }
 }
