@@ -23,12 +23,12 @@ defineProps({ project: Project });
 						{{ tag }}
 					</span>
 				</div>
-				<div class="flex justify-center items-center space-x-2 mt-4">
-					<a :href="project.externalLink" target="_blank"
+				<div v-if="project.externalLink || project.repository" class="flex justify-center items-center space-x-2 mt-4">
+					<a v-if="project.externalLink" :href="project.externalLink" target="_blank"
 						 class="p-2 text-slate-700 hover:text-slate-800 dark:text-slate-300 dark:hover:text-slate-200">
 						<globe-alt-icon class="w-6 h-6"/>
 					</a>
-					<a :href="project.repository" target="_blank"
+					<a v-if="project.repository" :href="project.repository" target="_blank"
 						 class="p-2 text-slate-700 hover:text-slate-800 dark:text-slate-300 dark:hover:text-slate-200">
 						<github-icon class="w-5 h-5 stroke-2"/>
 					</a>
