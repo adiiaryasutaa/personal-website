@@ -11,21 +11,33 @@ const router = createRouter({
 			path: '/',
 			name: 'home',
 			component: HomeView,
+			meta: {
+				title: 'Adi Aryasuta',
+			},
 		},
 		{
 			path: '/about',
 			name: 'about',
 			component: AboutView,
+			meta: {
+				title: 'Adi Aryasuta | About',
+			},
 		},
 		{
 			path: '/project',
 			name: 'project',
 			component: ProjectView,
+			meta: {
+				title: 'Adi Aryasuta | Project',
+			},
 		},
 		{
 			path: '/blog',
 			name: 'blog',
 			component: BlogView,
+			meta: {
+				title: 'Adi Aryasuta | Blog',
+			},
 		},
 		{
 			path: '/:pathMatch(.*)*',
@@ -37,5 +49,9 @@ const router = createRouter({
 		document.getElementById('app').scrollIntoView({ behavior: 'smooth' })
 	},
 });
+
+router.afterEach((to, from) => {
+	document.title = to.meta.title
+})
 
 export default router;
