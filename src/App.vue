@@ -5,9 +5,7 @@ import Footer from "@/components/Footer.vue";
 
 <template>
 	<div class="bg-gray-100 bg-image-light min-h-screen selection:bg-slate-300 dark:bg-gray-900 dark:bg-image-dark dark:selection:bg-slate-700">
-		<header>
-			<navbar/>
-		</header>
+  	<navbar/>
 		<router-view v-slot="{ Component }">
 			<transition name="fade" mode="in-out">
 				<component :is="Component"/>

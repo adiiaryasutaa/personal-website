@@ -8,7 +8,6 @@ const inBahasa = ref(false);
 
 const switchLanguage = () => {
 	inBahasa.value = !inBahasa.value;
-	console.log(inBahasa.value);
 };
 
 watch(inBahasa, () => {
