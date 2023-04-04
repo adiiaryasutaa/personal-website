@@ -7,7 +7,7 @@
     "blog": "Blog"
   },
   "home": {
-    "description": "Seorang <span class=\"font-semibold\">Software Developer</span> yang senang membuat produk berguna",
+    "description": "Seorang <span class=\"font-semibold\">Software Developer</span> yang senang membuat produk yang bermanfaat",
     "see-more": "Lebih banyak tentang saya"
   },
   "about": {
@@ -42,7 +42,7 @@
     },
     "aplikasi-kasir": {
       "title": "Aplikasi Kasir",
-      "description": "Proyek mata pelajaran Pemrograman Berorientasi Obyek (PBO)"
+      "description": "Proyek mata pelajaran Pemrograman Berorientasi Objek (PBO)"
     },
     "rps-game": {
       "title": "RPS Game",

@@ -30,11 +30,11 @@
     },
     "sejarahku": {
       "title": "Sejarahku",
-      "description": "Sebuah website untuk mempelajari sejarah"
+      "description": "A website for learning about history"
     },
     "skenmath": {
       "title": "SkenMath",
-      "description": "Belajar matematika untuk SMA/SMK"
+      "description": "Learn math for senior high school students"
     },
     "get-anime-quote": {
       "title": "Get Anime Quote",
@@ -42,7 +42,7 @@
     },
     "aplikasi-kasir": {
       "title": "Aplikasi Kasir",
-      "description": "Aplikasi kasir"
+      "description": "Object-oriented programming subject project"
     },
     "rps-game": {
       "title": "RPS Game",
@@ -58,15 +58,15 @@
     },
     "blog-hub-pasien": {
       "title": "Blog Hub Pasien",
-      "description": "Situs blog Hub Pasien"
+      "description": "Blog for Hub Pasien"
     },
     "pengaduan-masyarakat": {
       "title": "Pengaduan Masyarakat",
-      "description": "Pengaduan Masyarakar"
+      "description": "Web application for training before the 2023 Competency Test"
     },
     "pembayaran-spp": {
       "title": "Pembayaran SPP",
-      "description": "Project UKK"
+      "description": "Competency test project 2023"
     }
   },
   "blog": {
