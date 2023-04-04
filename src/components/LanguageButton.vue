@@ -1,4 +1,5 @@
 <script setup>
+import Cookies from "js-cookie";
 import { LanguageIcon } from '@heroicons/vue/20/solid';
 import { ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
@@ -6,14 +7,22 @@ import { useI18n } from 'vue-i18n';
 const { locale } = useI18n({ useScope: 'global' });
 const inBahasa = ref(false);
 
-const switchLanguage = () => {
-	inBahasa.value = !inBahasa.value;
-};
-
 watch(inBahasa, () => {
 	locale.value = inBahasa.value ? 'id' : 'en';
+
+	Cookies.set(
+		'bahasa',
+		inBahasa.value ? '1' : '',
+		{
+			secure: true,
+			expires: 365,
+		},
+	);
 });
 
+inBahasa.value = Boolean(Cookies.get('bahasa'));
+
+const switchLanguage = () => inBahasa.value = !inBahasa.value;
 </script>
 
 <template>

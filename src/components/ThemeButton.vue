@@ -1,13 +1,30 @@
 <script setup>
+import Cookies from "js-cookie";
 import { MoonIcon, SunIcon } from '@heroicons/vue/20/solid';
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 
 const inDarkMode = ref(false);
 
-const switchTheme = () => {
-	inDarkMode.value = !inDarkMode.value;
-	document.documentElement.classList.toggle('dark', inDarkMode.value);
-};
+watch(inDarkMode, () => {
+	if (inDarkMode.value) {
+		document.documentElement.classList.add('dark');
+	} else {
+		document.documentElement.classList.remove('dark');
+	}
+
+	Cookies.set(
+		'dark',
+		inDarkMode.value ? '1' : '',
+		{
+			secure: true,
+			expires: 365
+		},
+	);
+});
+
+inDarkMode.value = Boolean(Cookies.get('dark'));
+
+const switchTheme = () => inDarkMode.value = !inDarkMode.value;
 </script>
 
 <template>
