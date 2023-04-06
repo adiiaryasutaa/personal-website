@@ -10,8 +10,8 @@ import Container from '@/components/Container.vue';
 			<template #title>
 				<container-title>{{ $t('blog.section-title') }}</container-title>
 			</template>
-      <div class="grid justify-center mt-4">
-        <div class="inline font-medium text-sm px-2 py-1.5 bg-slate-100 border-2 border-slate-200 rounded text-center dark:bg-slate-700 dark:border-slate-600 dark:text-slate-100">
+      <div class="grid justify-center mt-4 md:mt-6 lg:mt-8 xl:mt-10">
+        <div class="font-medium text-sm text-center text-slate-600 dark:text-slate-400">
           {{ $t('blog.message') }}
         </div>
       </div>
