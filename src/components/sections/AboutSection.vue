@@ -13,6 +13,7 @@
 			<div class="mt-10 text-justify leading-relaxed text-slate-700 space-y-4 dark:text-slate-400 md:mt-0 md:ml-10 xl:text-lg">
 				<p v-html="$t('about.description[0]')"></p>
 				<p v-html="$t('about.description[1]')"></p>
+				<p v-html="$t('about.description[2]')"></p>
 			</div>
 		</div>
 	</section>
