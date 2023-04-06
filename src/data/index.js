@@ -43,7 +43,7 @@ export const projects = [
 		'src/assets/imgs/projects/rps-game.png',
 		'project.rps-game.title',
 		'project.rps-game.description',
-		['HTML', 'Javascript', 'API', 'TailwindCSS'],
+		['HTML', 'Javascript'],
 		'https://github.com/adiiaryasutaa/rps-game',
 		'https://adiiaryasutaa.github.io/rps-game',
 	),
