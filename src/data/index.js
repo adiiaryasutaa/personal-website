@@ -26,41 +26,11 @@ export const tools = [
 	new SimpleCard('src/assets/icons/phpstorm.svg', 'PhpStorm'),
 	new SimpleCard('src/assets/icons/datagrip.svg', 'DataGrip'),
 	new SimpleCard('src/assets/icons/webstorm.svg', 'WebStorm'),
+	new SimpleCard('src/assets/icons/android-studio.svg', 'Android Studio'),
+	new SimpleCard('src/assets/icons/figma.svg', 'Figma'),
 ];
 
 export const projects = [
-	// new Project(
-	// 	null,
-	// 	'project.pembayaran-spp.title',
-	// 	'project.pembayaran-spp.description',
-	// 	['PHP', 'Bootstrap'],
-	// 	null,
-	// 	null,
-	// ),
-	new Project(
-		null,
-		'project.pengaduan-masyarakat.title',
-		'project.pengaduan-masyarakat.description',
-		['PHP', 'Bootstrap'],
-		null,
-		null,
-	),
-	new Project(
-		null,
-		'project.blog-hub-pasien.title',
-		'project.blog-hub-pasien.description',
-		['Laravel', 'TailwindCSS'],
-		null,
-		null,
-	),
-	new Project(
-		null,
-		'project.hub-pasien.title',
-		'project.hub-pasien.description',
-		['Bootstrap', 'Laravel'],
-		null,
-		null,
-	),
 	new Project(
 		'src/assets/imgs/projects/reaction-timer.png',
 		'project.reaction-timer.title',
@@ -78,7 +48,7 @@ export const projects = [
 		'https://adiiaryasutaa.github.io/rps-game',
 	),
 	new Project(
-		null,
+		'src/assets/imgs/projects/aplikasi-kasir.png',
 		'project.aplikasi-kasir.title',
 		'project.aplikasi-kasir.description',
 		['Java', 'Gson'],
