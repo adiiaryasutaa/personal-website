@@ -1,38 +1,70 @@
 import SimpleCard from '@/DTOs/SimpleCard';
 import Project from '@/DTOs/Project';
 
+import HTMLLogo from '@/assets/icons/html.svg';
+import CSSLogo from '@/assets/icons/css.svg';
+import BootstrapLogo from '@/assets/icons/bootstrap.svg';
+import TailwindCSSLogo from '@/assets/icons/tailwindcss.svg';
+import JavaScriptLogo from '@/assets/icons/javascript.svg';
+import VueLogo from '@/assets/icons/vue.svg';
+import PHPLogo from '@/assets/icons/php.svg';
+import LaravelLogo from '@/assets/icons/laravel.svg';
+import CPPLogo from '@/assets/icons/cpp.svg';
+import JavaLogo from '@/assets/icons/java.svg';
+import MySQLLogo from '@/assets/icons/mysql.svg';
+import AndroidLogo from '@/assets/icons/android.svg';
+import FirebaseLogo from '@/assets/icons/firebase.svg';
+import GitLogo from '@/assets/icons/git.svg';
+import GitHubLogo from '@/assets/icons/github.svg';
+import VSCodeLogo from '@/assets/icons/vscode.svg';
+import IntelliJIdeaLogo from '@/assets/icons/intellijidea.svg';
+import CLionLogo from '@/assets/icons/clion.svg';
+import PHPStormLogo from '@/assets/icons/phpstorm.svg';
+import DataGripLogo from '@/assets/icons/datagrip.svg';
+import WebStormLogo from '@/assets/icons/webstorm.svg';
+import AndroidStudioLogo from '@/assets/icons/android-studio.svg';
+import FigmaLogo from '@/assets/icons/figma.svg';
+
+import ReactionTimerImage from '@/assets/imgs/projects/reaction-timer.png'
+import RPSGameImage from '@/assets/imgs/projects/rps-game.png'
+import AplikasiKasirImage from '@/assets/imgs/projects/aplikasi-kasir.png'
+import GetAnimeQuoteImage from '@/assets/imgs/projects/get-anime-quote.png'
+import SkenMathImage from '@/assets/imgs/projects/skenmath.png'
+import SejarahkuImage from '@/assets/imgs/projects/sejarahku.png'
+import Erpeelone58Image from '@/assets/imgs/projects/erpeelone58.png'
+
 export const skills = [
-	new SimpleCard('src/assets/icons/html.svg', 'HTML'),
-	new SimpleCard('src/assets/icons/css.svg', 'CSS'),
-	new SimpleCard('src/assets/icons/bootstrap.svg', 'Bootstrap'),
-	new SimpleCard('src/assets/icons/tailwindcss.svg', 'TailwindCSS'),
-	new SimpleCard('src/assets/icons/javascript.svg', 'Javascript'),
-	new SimpleCard('src/assets/icons/vue.svg', 'Vue'),
-	new SimpleCard('src/assets/icons/php.svg', 'PHP'),
-	new SimpleCard('src/assets/icons/laravel.svg', 'Laravel'),
-	new SimpleCard('src/assets/icons/cpp.svg', 'C++'),
-	new SimpleCard('src/assets/icons/java.svg', 'Java'),
-	new SimpleCard('src/assets/icons/mysql.svg', 'MySQL'),
-	new SimpleCard('src/assets/icons/android.svg', 'Android'),
-	new SimpleCard('src/assets/icons/firebase.svg', 'Firebase'),
+	new SimpleCard(HTMLLogo, 'HTML'),
+	new SimpleCard(CSSLogo, 'CSS'),
+	new SimpleCard(BootstrapLogo, 'Bootstrap'),
+	new SimpleCard(TailwindCSSLogo, 'TailwindCSS'),
+	new SimpleCard(JavaScriptLogo, 'Javascript'),
+	new SimpleCard(VueLogo, 'Vue'),
+	new SimpleCard(PHPLogo, 'PHP'),
+	new SimpleCard(LaravelLogo, 'Laravel'),
+	new SimpleCard(CPPLogo, 'C++'),
+	new SimpleCard(JavaLogo, 'Java'),
+	new SimpleCard(MySQLLogo, 'MySQL'),
+	new SimpleCard(AndroidLogo, 'Android'),
+	new SimpleCard(FirebaseLogo, 'Firebase'),
 ];
 
 export const tools = [
-	new SimpleCard('src/assets/icons/git.svg', 'Git'),
-	new SimpleCard('src/assets/icons/github.svg', 'GitHub'),
-	new SimpleCard('src/assets/icons/vscode.svg', 'VS Code'),
-	new SimpleCard('src/assets/icons/intellijidea.svg', 'IntelliJ IDEA'),
-	new SimpleCard('src/assets/icons/clion.svg', 'CLion'),
-	new SimpleCard('src/assets/icons/phpstorm.svg', 'PhpStorm'),
-	new SimpleCard('src/assets/icons/datagrip.svg', 'DataGrip'),
-	new SimpleCard('src/assets/icons/webstorm.svg', 'WebStorm'),
-	new SimpleCard('src/assets/icons/android-studio.svg', 'Android Studio'),
-	new SimpleCard('src/assets/icons/figma.svg', 'Figma'),
+	new SimpleCard(GitLogo, 'Git'),
+	new SimpleCard(GitHubLogo, 'GitHub'),
+	new SimpleCard(VSCodeLogo, 'VS Code'),
+	new SimpleCard(IntelliJIdeaLogo, 'IntelliJ IDEA'),
+	new SimpleCard(CLionLogo, 'CLion'),
+	new SimpleCard(PHPStormLogo, 'PhpStorm'),
+	new SimpleCard(DataGripLogo, 'DataGrip'),
+	new SimpleCard(WebStormLogo, 'WebStorm'),
+	new SimpleCard(AndroidStudioLogo, 'Android Studio'),
+	new SimpleCard(FigmaLogo, 'Figma'),
 ];
 
 export const projects = [
 	new Project(
-		'src/assets/imgs/projects/reaction-timer.png',
+		ReactionTimerImage,
 		'project.reaction-timer.title',
 		'project.reaction-timer.description',
 		['Vue', 'TailwindCSS'],
@@ -40,7 +72,7 @@ export const projects = [
 		'https://cecep-reaction-timer.vercel.app',
 	),
 	new Project(
-		'src/assets/imgs/projects/rps-game.png',
+		RPSGameImage,
 		'project.rps-game.title',
 		'project.rps-game.description',
 		['HTML', 'Javascript'],
@@ -48,14 +80,14 @@ export const projects = [
 		'https://adiiaryasutaa.github.io/rps-game',
 	),
 	new Project(
-		'src/assets/imgs/projects/aplikasi-kasir.png',
+		AplikasiKasirImage,
 		'project.aplikasi-kasir.title',
 		'project.aplikasi-kasir.description',
 		['Java', 'Gson'],
 		'https://github.com/adiiaryasutaa/aplikasi-kasir',
 	),
 	new Project(
-		'src/assets/imgs/projects/get-anime-quote.png',
+		GetAnimeQuoteImage,
 		'project.get-anime-quote.title',
 		'project.get-anime-quote.description',
 		['HTML', 'Javascript', 'API', 'TailwindCSS'],
@@ -63,7 +95,7 @@ export const projects = [
 		'https://getanimequote.vercel.app',
 	),
 	new Project(
-		'src/assets/imgs/projects/skenmath.png',
+		SkenMathImage,
 		'project.skenmath.title',
 		'project.skenmath.description',
 		['HTML', 'CSS', 'Javascript', 'Bootstrap'],
@@ -71,7 +103,7 @@ export const projects = [
 		'https://skenmath.vercel.app',
 	),
 	new Project(
-		'src/assets/imgs/projects/sejarahku.png',
+		SejarahkuImage,
 		'project.sejarahku.title',
 		'project.sejarahku.description',
 		['HTML', 'CSS', 'Javascript'],
@@ -79,7 +111,7 @@ export const projects = [
 		'https://adiiaryasutaa.github.io/sejarahku',
 	),
 	new Project(
-		'src/assets/imgs/projects/erpeelone58.png',
+		Erpeelone58Image,
 		'project.erpeelone-58.title',
 		'project.erpeelone-58.description',
 		['HTML', 'CSS', 'Javascript', 'Bootstrap'],
