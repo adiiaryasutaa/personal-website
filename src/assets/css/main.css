@@ -33,3 +33,14 @@
         background-color: theme(colors.slate.600);
     }
 }
+
+.fade-enter-active, .fade-leave-active {
+    transition: all .3s ease;
+    /*@apply transition-all duration-300 ease-in;*/
+}
+
+.fade-enter-from, .fade-leave-to {
+    /*@apply opacity-0 translate-x-8;*/
+    opacity: 0;
+    transform: translateX(2em);
+}
