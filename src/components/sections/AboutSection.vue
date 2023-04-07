@@ -10,7 +10,7 @@
 				<div v-html="$t('about.image-description[0]')" class="text-xs mt-2 text-slate-400 dark:text-slate-600"></div>
 				<div v-html="$t('about.image-description[1]')" class="text-xs mt-1 text-slate-400 dark:text-slate-600"></div>
 			</div>
-			<div class="mt-10 text-justify leading-relaxed text-slate-700 space-y-4 dark:text-slate-400 md:mt-0 md:ml-10 xl:text-lg">
+			<div class="mt-10 text-justify leading-relaxed text-slate-700 space-y-4 dark:text-slate-300 md:mt-0 md:ml-10 xl:text-lg">
 				<p v-html="$t('about.description[0]')"></p>
 				<p v-html="$t('about.description[1]')"></p>
 				<p v-html="$t('about.description[2]')"></p>

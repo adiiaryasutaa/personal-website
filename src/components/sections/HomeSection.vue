@@ -10,8 +10,8 @@ import SocialMediaSection from "@/components/sections/SocialMediaSection.vue";
              class="rounded-full w-40 ring-8 ring-slate-200 dark:ring-slate-700">
       </div>
       <div class="flex flex-col items-center mt-8">
-        <h1 class="text-3xl text-slate-800 dark:text-slate-200">{{ $t('brand') }}</h1>
-        <p v-html="$t('home.description')" class="font-medium text-sm text-slate-500 text-center leading-relaxed mt-4 md:text-base dark:text-slate-400"></p>
+        <h1 class="text-3xl text-slate-800 font-medium dark:text-slate-100">{{ $t('brand') }}</h1>
+        <p v-html="$t('home.description')" class="text-sm text-slate-600 text-center leading-relaxed mt-4 md:text-base dark:text-slate-300"></p>
 
         <social-media-section />
 

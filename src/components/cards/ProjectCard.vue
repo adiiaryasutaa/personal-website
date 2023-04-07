@@ -14,7 +14,7 @@ defineProps({ project: Project });
 		<div class="grow flex flex-col">
 			<div class="grow flex flex-col items-center mt-4">
 				<h1 class="font-semibold text-slate-900 text-xl dark:text-slate-100">{{ $t(project.titleLocale) }}</h1>
-				<p class="text-center text-slate-500 mt-1 leading-relaxed dark:text-slate-400">{{ $t(project.descriptionLocale) }}</p>
+				<p class="text-center text-slate-600 mt-1 leading-relaxed dark:text-slate-300">{{ $t(project.descriptionLocale) }}</p>
 			</div>
 			<div class="flex flex-col">
 				<div class="flex flex-wrap justify-center gap-2 mt-4">
