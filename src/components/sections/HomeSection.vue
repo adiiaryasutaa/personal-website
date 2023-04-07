@@ -3,7 +3,7 @@ import SocialMediaSection from "@/components/sections/SocialMediaSection.vue";
 </script>
 
 <template>
-  <section class="container pt-16">
+  <section class="container py-16">
     <div class="flex flex-col items-center">
       <div>
         <img src="@/assets/imgs/adiaryasuta.jpg" alt="Adi Aryasuta"
