@@ -5,7 +5,7 @@ import Container from '@/components/Container.vue';
 </script>
 
 <template>
-	<main-section class="h-screen">
+	<main-section>
 		<container>
 			<template #title>
 				<container-title>{{ $t('blog.section-title') }}</container-title>
