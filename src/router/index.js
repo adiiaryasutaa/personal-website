@@ -1,8 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '@/views/HomeView.vue';
-import AboutView from '@/views/AboutView.vue';
-import ProjectView from '@/views/ProjectView.vue';
-import BlogView from '@/views/BlogView.vue';
 
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
@@ -10,7 +6,7 @@ const router = createRouter({
 		{
 			path: '/',
 			name: 'home',
-			component: HomeView,
+			component: () => import('@/views/HomeView.vue'),
 			meta: {
 				title: 'Adi Aryasuta',
 			},
@@ -18,7 +14,7 @@ const router = createRouter({
 		{
 			path: '/about',
 			name: 'about',
-			component: AboutView,
+			component: () => import('@/views/AboutView.vue'),
 			meta: {
 				title: 'Adi Aryasuta | About',
 			},
@@ -26,7 +22,7 @@ const router = createRouter({
 		{
 			path: '/project',
 			name: 'project',
-			component: ProjectView,
+			component: () => import('@/views/ProjectView.vue'),
 			meta: {
 				title: 'Adi Aryasuta | Project',
 			},
@@ -34,7 +30,7 @@ const router = createRouter({
 		{
 			path: '/blog',
 			name: 'blog',
-			component: BlogView,
+			component: () => import('@/views/BlogView.vue'),
 			meta: {
 				title: 'Adi Aryasuta | Blog',
 			},
