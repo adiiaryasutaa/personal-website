@@ -4,7 +4,7 @@ import HomeSection from "@/components/sections/HomeSection.vue";
 </script>
 
 <template>
-	<main-section class="h-screen">
+	<main-section>
     <home-section />
   </main-section>
 </template>
