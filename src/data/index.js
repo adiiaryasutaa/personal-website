@@ -32,6 +32,7 @@ import GetAnimeQuoteImage from '@/assets/imgs/projects/get-anime-quote.png'
 import SkenMathImage from '@/assets/imgs/projects/skenmath.png'
 import SejarahkuImage from '@/assets/imgs/projects/sejarahku.png'
 import Erpeelone58Image from '@/assets/imgs/projects/erpeelone58.png'
+import BlogHubPasienImage from '@/assets/imgs/projects/blog-hub-pasien.png'
 
 export const skills = [
 	new SimpleCard(HTMLLogo, 'HTML'),
@@ -63,6 +64,13 @@ export const tools = [
 ];
 
 export const projects = [
+	new Project(
+		BlogHubPasienImage,
+		'project.blog-hub-pasien.title',
+		'project.blog-hub-pasien.description',
+		['Laravel', 'TailwindCSS'],
+		'https://github.com/adiiaryasutaa/blog-hub-pasien',
+	),
 	new Project(
 		ReactionTimerImage,
 		'project.reaction-timer.title',
