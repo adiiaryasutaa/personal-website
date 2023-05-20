@@ -6,6 +6,7 @@
     "project": "Project",
     "blog": "Blog"
   },
+  "soon": "Soon",
   "home": {
     "description": "I am a <span class=\"font-semibold\">Software Developer</span> who loves build useful products",
     "see-more": "More about me"
