@@ -28,14 +28,6 @@ const router = createRouter({
 			},
 		},
 		{
-			path: '/blog',
-			name: 'blog',
-			component: () => import('@/views/BlogView.vue'),
-			meta: {
-				title: 'Adi Aryasuta | Blog',
-			},
-		},
-		{
 			path: '/:pathMatch(.*)*',
 			name: 'not-found',
 			redirect: { name: 'home' }

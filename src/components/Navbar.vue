@@ -42,12 +42,12 @@ window.addEventListener('scroll', () => {
 
 				<div
 					@click="showNavigation = false"
-					class="navbar-nav w-full bg-slate-100 mt-4 rounded p-2 border border-slate-200 space-y-2 md:order-2 md:flex md:w-auto md:bg-transparent md:space-x-2 md:mt-0 md:p-0 md:border-0 md:space-y-0 dark:bg-slate-800 dark:border-slate-700 dark:md:bg-transparent"
+					class="navbar-nav w-full bg-slate-100 mt-4 rounded p-2 border border-slate-200 space-y-2 md:order-2 md:flex md:items-center md:w-auto md:bg-transparent md:space-x-2 md:mt-0 md:p-0 md:border-0 md:space-y-0 dark:bg-slate-800 dark:border-slate-700 dark:md:bg-transparent"
 					:class="{ 'hidden': !showNavigation }">
-					<navbar-item :label="$t('navbar.home')" href="/"/>
-					<navbar-item :label="$t('navbar.about')" href="/about"/>
-					<navbar-item :label="$t('navbar.project')" href="/project"/>
-					<navbar-item :label="$t('navbar.blog')" href="/blog"/>
+					<navbar-item :label="$t('navbar.home')" to="/"/>
+					<navbar-item :label="$t('navbar.about')" to="/about"/>
+					<navbar-item :label="$t('navbar.project')" to="/project"/>
+					<navbar-item :label="$t('navbar.blog')" :soon="true"/>
 				</div>
 			</div>
 		</div>
