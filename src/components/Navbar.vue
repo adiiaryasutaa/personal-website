@@ -47,7 +47,7 @@ window.addEventListener('scroll', () => {
 					<navbar-item :label="$t('navbar.home')" to="/"/>
 					<navbar-item :label="$t('navbar.about')" to="/about"/>
 					<navbar-item :label="$t('navbar.project')" to="/project"/>
-					<navbar-item :label="$t('navbar.blog')" :soon="true"/>
+					<navbar-item :label="$t('navbar.blog')" to="https://blog-adiaryasuta.vercel.app" :external="true"/>
 				</div>
 			</div>
 		</div>
