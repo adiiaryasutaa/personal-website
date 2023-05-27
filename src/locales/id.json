@@ -71,10 +71,6 @@
       "description": "Proyek Uji Kompetensi 2023"
     }
   },
-  "blog": {
-    "section-title": "Blog",
-    "message": "Blog masih dalam pengembangan \uD83D\uDE4F"
-  },
   "footer": {
     "copyright": "© {year} Adi Aryasuta",
     "technology": "Built with <span class=\"font-semibold\">Vue 3</span> and <span class=\"font-semibold\">TailwindCSS</span>",
