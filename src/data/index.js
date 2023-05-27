@@ -25,14 +25,15 @@ import WebStormLogo from '@/assets/icons/webstorm.svg';
 import AndroidStudioLogo from '@/assets/icons/android-studio.svg';
 import FigmaLogo from '@/assets/icons/figma.svg';
 
-import ReactionTimerImage from '@/assets/imgs/projects/reaction-timer.png'
-import RPSGameImage from '@/assets/imgs/projects/rps-game.png'
-import AplikasiKasirImage from '@/assets/imgs/projects/aplikasi-kasir.png'
-import GetAnimeQuoteImage from '@/assets/imgs/projects/get-anime-quote.png'
-import SkenMathImage from '@/assets/imgs/projects/skenmath.png'
-import SejarahkuImage from '@/assets/imgs/projects/sejarahku.png'
-import Erpeelone58Image from '@/assets/imgs/projects/erpeelone58.png'
-import BlogHubPasienImage from '@/assets/imgs/projects/blog-hub-pasien.png'
+import ReactionTimerImage from '@/assets/imgs/projects/reaction-timer.png';
+import RPSGameImage from '@/assets/imgs/projects/rps-game.png';
+import AplikasiKasirImage from '@/assets/imgs/projects/aplikasi-kasir.png';
+import GetAnimeQuoteImage from '@/assets/imgs/projects/get-anime-quote.png';
+import SkenMathImage from '@/assets/imgs/projects/skenmath.png';
+import SejarahkuImage from '@/assets/imgs/projects/sejarahku.png';
+import Erpeelone58Image from '@/assets/imgs/projects/erpeelone58.png';
+import BlogHubPasienImage from '@/assets/imgs/projects/blog-hub-pasien.png';
+import PembayaranSPPImage from '@/assets/imgs/projects/pembayaran-spp.png';
 
 export const skills = [
 	new SimpleCard(HTMLLogo, 'HTML'),
@@ -65,10 +66,17 @@ export const tools = [
 
 export const projects = [
 	new Project(
+		PembayaranSPPImage,
+		'project.pembayaran-spp.title',
+		'project.pembayaran-spp.description',
+		['PHP', 'MySQL', 'Bootstrap'],
+		'https://github.com/adiiaryasutaa/aplikasi-pembayaran-spp',
+	),
+	new Project(
 		BlogHubPasienImage,
 		'project.blog-hub-pasien.title',
 		'project.blog-hub-pasien.description',
-		['Laravel', 'TailwindCSS'],
+		['Laravel', 'MySQL', 'TailwindCSS'],
 		'https://github.com/adiiaryasutaa/blog-hub-pasien',
 	),
 	new Project(
